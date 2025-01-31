@@ -15,6 +15,8 @@ Ejecutaremos _systemctl status nginx_ para comprobar que ha sido instalado corre
 El fichero está situado en _/etc/nginx_.
 ![Comprobación de red](./imagenes/C_INSPECCIONAR_FICHEROS.PNG)
 
+<br>
+
 Se puede configurar en _/etc/nginx/nginx.conf_ 
 ![Comprobación de red](./imagenes/C_ARCHIVO_CONFIGURACION.PNG)
 
