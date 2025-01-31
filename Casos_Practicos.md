@@ -31,3 +31,16 @@ Crearemos dos directorios para las dos webs.
 Le concedemos los permisos pertinentes a los directorios
 ![Comprobación de red](./imagenes/E_VIRTUAL_HOSTING_CONCESION_PERMISOS.PNG)
 
+Crearemos el index.html para las dos páginas webs.
+![Comprobación de red](./imagenes/E_VIRTUAL_HOSTING_CREACION_INDEX1.PNG)
+![Comprobación de red](./imagenes/E_VIRTUAL_HOSTING_CREACION_INDEX2.PNG)
+
+Crearemos los sites-availables para las webs
+![Comprobación de red](./imagenes/E_VIRTUAL_HOSTING_SITES-AVAILABLE.PNG)
+
+Configuraremos el archivo hosts para nuestras dos webs.
+![Comprobación de red](./imagenes/E_VIRTUAL_HOSTING_ARCHIVO_HOSTS.PNG)
+
+Finalmente tendremos esto como resultado.
+![Comprobación de red](./imagenes/E_VIRTUAL_HOSTING_RESULTADO_FINAL.PNG)
+
