@@ -1,5 +1,7 @@
 <h2 align="center">CONFIGURACIÓN DE NGINX </h2>
 
+![Comprobación de red](./imagenes/Nginx.jpg)
+
 ## Índice
 
 ![Static Badge](https://img.shields.io/badge/Introducci%C3%B3n-blue?style=flat-square&color=%2398F5F9)
