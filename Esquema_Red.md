@@ -3,7 +3,7 @@ El servidor está configurado con dos tarjetas de red:
 - La primera red corresponderá a la enp0s3 y tendrá adaptador puente.
 - La segunda red corresponderá a la enp0s8 y tendrá red interna.
   
-![Tarjetas de red](./imagenes/)  
+![Tarjetas de red](./imagenes/VirtualBox.PNG)  
 
 ## Configuración de la red
 Para configurar nuestra red deberemos entrar en nuestra máquina ubuntu y dirigirnos a la ruta /etc/netplan/01-network-manager-all.yaml
