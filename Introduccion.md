@@ -1,3 +1,5 @@
+![Comprobación de red](./imagenes/N.png)
+
 ### ¿QUÉ ES NGINX?
 NGINX es un servidor web de código abierto creado por Igor Sysoev en 2004, que ha logrado gran popularidad debido a su excelente capacidad para gestionar altos volúmenes de tráfico y ofrecer un rendimiento sobresaliente. Más allá de ser un servidor web, NGINX también desempeña funciones como proxy inverso, balanceador de carga y servidor de correo, lo que lo convierte en una herramienta clave en arquitecturas modernas gracias a su eficiencia y versatilidad. Su diseño está basado en un modelo asíncrono y no bloqueante, permitiéndole manejar miles de conexiones simultáneas de manera efectiva sin comprometer el rendimiento global del sistema. A diferencia de otros servidores web tradicionales, NGINX emplea un sistema de manejo de eventos que le permite ser altamente escalable y consumir pocos recursos, lo que lo hace ideal para sitios web con gran tráfico.
 
