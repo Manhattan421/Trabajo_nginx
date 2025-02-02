@@ -96,5 +96,24 @@ Por último accederemos a web1 mediante el navegador para asegurarnos que los ca
 
 ![Comprobación de red](./imagenes/G_2COMPROBACION_REQUIERE_ACCESO.PNG)
 
+## H) Autenticación, autorización y control de acceso
+
+Web1 contiene un directorio llamado privado y desde la red externa nos pedirá una autorización pero desde la red interna no.
+
+Para ello volveremos a modificar archvio `web1` dentro de `sites-availables`.
+
+![Comprobación de red](./imagenes/H_MODIFICACION_SITES-AVAILABLE.PNG)
+
+## I) Seguridad
+
+Configuraremos el sitio web para que sea seguro mediante el uso del comando que vemos en la imagen.
+
+![Comprobación de red](./imagenes/I_SEGURIDAD.PNG)
+
+Por último modificaremos el archvio `web1` dentro de `sites-availables`.
+
+![Comprobación de red](./imagenes/I_SEGURIDAD2.PNG)
+
+
 
 
