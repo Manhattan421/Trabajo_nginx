@@ -58,11 +58,11 @@ Finalmente, tendremos esto como resultado.
 
 ![Comprobación de red](./imagenes/E_VIRTUAL_HOSTING_RESULTADO_FINAL.PNG)
 
-## F) Autenticación, autorización Y control de acceso
+## F) Autenticación, autorización y control de acceso
 
 Le dotaremos a la web1 de conexión tanto interna como externa, sin embargo a la web2 le daremos solo conexión con la red interna.
 
-Para conseguir este objetivo deberemos mofdificar los `sites-availabes` de cada uno como vemos en la imágenes.
+Para conseguir este objetivo deberemos mofdificar los archvios `web1` y `web2` dentro de `sites-availabes` de cada uno como vemos en la imágenes.
 
 ![Comprobación de red](./imagenes/F_MODIFICACIÓN_SITES-AVAILABLE.PNG)
 
@@ -80,6 +80,21 @@ También comprobaremos la red interna mediante el comando `curl`
 
 ![Comprobación de red](./imagenes/F_COMPROBACION_REDINTERNA_CURL.PNG)
 
+## G) Autenticación, autorización y control de acceso
+
+Configuraremos una autentificación básica para que sólo se pueda acceder mediante usuarios válidos.
+
+Para ello primero deberemos crear el usuario utilizando el comando `htpasswd`.
+
+![Comprobación de red](./imagenes/G_CREACION_USUARIO_VAPRIMEROENLAZONADEG.PNG)
+
+Para ello deberemos modificar de nuevo el archvio `web1` dentro de `sites-availables`.
+
+![Comprobación de red](./imagenes/G_1MODIFICACION_SITES-AVAILABLE.PNG)
+
+Por último accederemos a web1 mediante el navegador para asegurarnos que los cambios en el archivo de configuración de la web se han realizado con éxito, es decir que nos pida un usuario y una clave para poder acceder a dicha página.
+
+![Comprobación de red](./imagenes/G_2COMPROBACION_REQUIERE_ACCESO.PNG)
 
 
 
